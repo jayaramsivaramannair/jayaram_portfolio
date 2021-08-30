@@ -7,3 +7,7 @@
   color: gray;
   height: 100vh;
 }
+
+.project-gallery img {
+  width: 250px;
+}
