@@ -3,7 +3,6 @@ import React from 'react'
 function About() {
   return (
     <section id="about">
-      <div>
         <div>
           <h1>
             Hi, I'm Jayaram
@@ -17,10 +16,9 @@ function About() {
             <a href="#projects">My Projects</a>
           </div>
         </div>
-        <div>
+        <div className="hero-image">
           <img alt="hero" src="./coding.svg"/>
         </div>
-      </div>
     </section>
   )
 }
