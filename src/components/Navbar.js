@@ -2,9 +2,24 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div>
-      Navbar Section
-    </div>
+   <header>
+     <div>
+       <a>
+         <a href= "#about">
+           Jayaram Nair
+         </a>
+       </a>
+       <a href="#projects">
+          Past Work
+       </a>
+       <a href="#skills">
+        Skills
+       </a>
+       <a href="#contact">
+         Contact Me
+       </a>
+     </div>
+   </header>
   )
 }
 

@@ -9,5 +9,10 @@
 }
 
 .project-gallery img {
-  width: 250px;
+  width: 200px;
+}
+
+header div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
