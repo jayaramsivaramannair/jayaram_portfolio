@@ -11,10 +11,6 @@ function About() {
           <p>
             I am a full-stack software engineer with a keen interest in Bitcoin, Blockchain and backend development
           </p>
-          <div>
-            <a href="#contact">Work With Me</a>
-            <a href="#projects">My Projects</a>
-          </div>
         </div>
         <div className="hero-image">
           <img alt="hero" src="./coding.svg"/>

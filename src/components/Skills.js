@@ -2,6 +2,7 @@ import React from 'react'
 import {skills} from "../data"
 
 function Skills() {
+  const checkmark = '\u2714';
   return (
     <section id="skills">
       <div>
@@ -9,10 +10,10 @@ function Skills() {
           <h1>Skills & Technologies</h1>
           <p></p>
         </div>
-        <div>
-          {skills.map((skill) => {
-            return <div>
-                    <span>{skill}</span>
+        <div className="skills-container">
+          {skills.map((skill, index) => {
+            return <div className="skill-container" key={index}>
+                    <span>{`${checkmark}  ${skill}`}</span>
                    </div>
           })}
         </div>

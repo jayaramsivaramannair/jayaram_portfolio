@@ -2,6 +2,7 @@ import React from 'react'
 import {projects} from "../data";
 
 function Projects() {
+  
   return (
     <section id="projects">
         <div>
@@ -11,9 +12,10 @@ function Projects() {
         </div>
         <div className="project-list">
           {projects.map((project) => {
-            return <div className="project-gallery">
-                <a href={project.link} key={project.image}>
-                <img src={project.image} alt={project.description}/>
+            return (
+            <div className="project-gallery" key={project.image}>
+                <a href={project.link} >
+                <div className="image-container"><img src={project.image} alt={project.description}/></div>
                 <div>
                   <h3>
                     {project.subtitle}
@@ -25,6 +27,7 @@ function Projects() {
                 </div>
                 </a>
             </div>
+            )
           })}
         </div>
     </section>
