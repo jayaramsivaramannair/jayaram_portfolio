@@ -27,13 +27,13 @@ function Contact() {
 
   return (
     <section id="contact">
-      <div>
+      <div className="contact-form">
           <form netlify name="contact" onSubmit={handleSubmit}>
             <h2>
               Hire Me
             </h2>
             <p></p>
-            <div>
+            <div className="contact-form-name">
               <label htmlFor="name">
                 Name
               </label>
@@ -44,7 +44,7 @@ function Contact() {
                 onChange={(e) => setName(e.target.value)}
               />
             </div>
-            <div>
+            <div className="contact-form-email">
               <label htmlFor="email">
                 Email
               </label>
@@ -55,7 +55,7 @@ function Contact() {
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
-            <div>
+            <div className="contact-form-message">
               <label htmlFor="message">
                 Message
               </label>
