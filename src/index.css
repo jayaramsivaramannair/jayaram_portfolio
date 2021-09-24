@@ -24,7 +24,7 @@ header div {
 
 header {
   font-size: 1.2rem;
-  color: white;
+  color: turquoise;
   font-family: 'Roboto Slab', serif;
   margin: 2rem 0;
 }
@@ -36,7 +36,7 @@ header {
 }
 
 #about h1 {
-  color: orange;
+  color: violet;
   font-size: 5rem;
   font-family: 'Montserrat', sans-serif;
 }
@@ -44,7 +44,7 @@ header {
 #about p {
   margin-top: 1.5rem;
   font-size: 1.2rem;
-  color: orange;
+  color: violet;
   font-family: 'Montserrat', sans-serif;
 }
 
