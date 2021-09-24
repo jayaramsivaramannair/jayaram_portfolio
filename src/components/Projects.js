@@ -4,34 +4,29 @@ import {projects} from "../data";
 function Projects() {
   return (
     <section id="projects">
-      <div>
         <div>
           <h1>
             Projects
           </h1>
-          <p>
-            Technologies which I have used in making of these projects
-          </p>
         </div>
-        <div>
+        <div className="project-list">
           {projects.map((project) => {
-            return <a href={project.link} key={project.image}>
-              <div className="project-gallery">
+            return <div className="project-gallery">
+                <a href={project.link} key={project.image}>
                 <img src={project.image} alt={project.description}/>
                 <div>
-                  <h2>
+                  <h3>
                     {project.subtitle}
-                  </h2>
-                  <h1>
+                  </h3>
+                  <h2>
                     {project.title}
-                  </h1>
+                  </h2>
                   <p>{project.description}</p>
                 </div>
-              </div>
-            </a>
+                </a>
+            </div>
           })}
         </div>
-      </div>
     </section>
   )
 }

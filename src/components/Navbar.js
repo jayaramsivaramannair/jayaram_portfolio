@@ -4,11 +4,9 @@ function Navbar() {
   return (
    <header>
      <div>
-       <a>
-         <a href= "#about">
-           Jayaram Nair
-         </a>
-       </a>
+      <a href= "#about">
+        Jayaram Nair
+      </a>
        <a href="#projects">
           Past Work
        </a>
