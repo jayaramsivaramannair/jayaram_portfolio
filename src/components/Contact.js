@@ -32,7 +32,7 @@ function Contact() {
       <div className="contact-form">
           <form netlify name="contact" onSubmit={handleSubmit}>
             <h2>
-              Hire Me
+              Contact
             </h2>
             <p></p>
             <div className="contact-form-name">
