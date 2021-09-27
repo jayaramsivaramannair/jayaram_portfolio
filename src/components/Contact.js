@@ -30,7 +30,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="contact-form">
-          <form netlify name="contact" onSubmit={handleSubmit}>
+          <form target="_blank" action="https://formsubmit.co/jayaramsivaramannair@gmail.com" method="POST">
             <h2>
               Contact
             </h2>
