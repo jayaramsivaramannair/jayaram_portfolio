@@ -14,15 +14,15 @@ function Projects() {
           {projects.map((project) => {
             return (
             <div className="project-gallery" key={project.image}>
+                <h2>
+                  {project.title}
+                </h2>
+                <h3>
+                  {project.subtitle}
+                </h3>
                 <a href={project.link} >
                 <div className="image-container"><img src={project.image} alt={project.description}/></div>
                 <div>
-                  <h3>
-                    {project.subtitle}
-                  </h3>
-                  <h2>
-                    {project.title}
-                  </h2>
                   <p>{project.description}</p>
                 </div>
                 </a>

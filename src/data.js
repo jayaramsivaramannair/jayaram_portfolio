@@ -1,35 +1,19 @@
 export const projects = [
   {
-    title: "React Reserve",
+    title: "Rick and Morty's World",
+    subtitle: "Built with JavaScript, CSS, React and Redux",
+    description:
+      "An application which displays the image and character profile for each character from the popular show - Rick and Morty",
+    image: '../src/Rick-And-Morty.gif',
+    link: "https://github.com/jayaramsivaramannair/rick_and_morty_world",
+  },
+  {
+    title: "One Fifty Two",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "An application which lets the user keep track of books read and also keep track of notes for each book",
+    image: "../src/One-Fifty-Two.gif",
+    link: "https://github.com/jayaramsivaramannair/book_notes",
   },
 ];
 

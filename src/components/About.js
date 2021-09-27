@@ -9,7 +9,7 @@ function About() {
             <br/>
           </h1>
           <p>
-            I am a full-stack software engineer with a keen interest in Bitcoin, Blockchain and backend development
+            I am a full-stack web engineer with a keen interest in Bitcoin, Blockchain and backend development
           </p>
         </div>
         <div className="hero-image">
