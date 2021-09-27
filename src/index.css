@@ -83,6 +83,10 @@ header {
   border-radius: 10px;
 }
 
+.project-link {
+  color: green;
+}
+
 #skills h1 {
   text-align: center;
   margin-top: 25px;

@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Built with JavaScript, CSS, React and Redux",
     description:
       "An application which displays the image and character profile for each character from the popular show - Rick and Morty",
-    image: '../src/Rick-And-Morty.gif',
+    image: "",
     link: "https://github.com/jayaramsivaramannair/rick_and_morty_world",
   },
   {

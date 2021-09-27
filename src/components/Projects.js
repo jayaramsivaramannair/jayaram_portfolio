@@ -21,11 +21,12 @@ function Projects() {
                   {project.subtitle}
                 </h3>
                 <a href={project.link} >
-                <div className="image-container"><img src={project.image} alt={project.description}/></div>
+                 {/*<div className="image-container"><img src={project.image} alt={project.description}/></div>*/}
+                 <span className="project-link"><h3>{`<Code Anatomy/>`}</h3></span>
+                </a>
                 <div>
                   <p>{project.description}</p>
                 </div>
-                </a>
             </div>
             )
           })}
