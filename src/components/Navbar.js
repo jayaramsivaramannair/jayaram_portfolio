@@ -13,6 +13,9 @@ function Navbar() {
        <a href="#skills">
         Skills
        </a>
+       <a href="https://docs.google.com/document/d/1qrSbm4RprbOVclcegfUE3BuRHitdKDbe307vRaock5s/edit?usp=sharing">
+         Resume
+       </a>
        <a href="#contact">
          Contact Me
        </a>
