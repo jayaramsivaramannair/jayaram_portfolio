@@ -1,7 +1,8 @@
 body {
   background-color: #14213d;
-  max-width: 1080px;
+  max-width: 1200px;
   color: violet;
+  padding: 25px;
   margin: 0 auto;
 }
 
@@ -72,6 +73,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-gap: 25px;
+  padding: 50px;
   justify-content: center;
   align-content: center;
 }
@@ -173,4 +175,22 @@ textarea:focus {
 
 button:hover {
   background-color: turquoise;
+}
+
+@media screen and (max-width: 900px) {
+  #about {
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  #projects .project-list {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
