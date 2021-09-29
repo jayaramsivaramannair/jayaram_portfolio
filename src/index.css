@@ -191,7 +191,7 @@ button:hover {
   background-color: turquoise;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   header div {
     display: grid;
     grid-template-columns: auto;
