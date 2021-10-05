@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     title: "One Fifty Two",
-    subtitle: "MERN Stack",
+    subtitle: "PERN Stack",
     description:
       "An application which lets the user keep track of books read and also keep track of notes for each book",
     image: "../src/One-Fifty-Two.gif",

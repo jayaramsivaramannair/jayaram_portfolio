@@ -13,7 +13,7 @@ function About() {
           </p>
         </div>
         <div className="hero-image">
-          <img alt="hero" src="./coding.svg"/>
+          <img alt="hero" src="./selfie.jpg"/>
         </div>
     </section>
   )
